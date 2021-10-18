@@ -53,8 +53,8 @@ public class TopTeamsAdapter extends RecyclerView.Adapter< TopTeamsAdapter.MyVie
         holder.textViewTitle.setText(rowp.getTitle());
         Glide.with(mContext)
                 .load(rowp.getCountry_images()) // image url
-                .placeholder(R.drawable.spain) // any placeholder to load at start
-                .error(R.drawable.spain)
+                .placeholder(R.drawable.ic_launcher_background) // any placeholder to load at start
+                .error(R.drawable.ic_launcher_foreground)
                                .into(holder.imageViewcountry);
         holder.mImageView.setImageResource(rowp.getTeam_image());
         holder.textview_no.setText(rowp.getSerialno() + ".");
