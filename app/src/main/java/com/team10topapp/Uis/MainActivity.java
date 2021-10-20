@@ -52,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
         list.add(new SportsItems(4,"Volleyball Teams",R.drawable.ic_volleyball));
         list.add(new SportsItems(5,"Rugby Teams",R.drawable.ic_rugbyteams));
         list.add(new SportsItems(6,"CyberSports Teams",R.drawable.ic_cybersports));
+        list.add(new SportsItems(1,"Football Teams",R.drawable.ic_football));
+        list.add(new SportsItems(2,"Hockey Teams",R.drawable.ic_hock));
+        list.add(new SportsItems(3,"Basketball Teams",R.drawable.ic_basketball));
+        list.add(new SportsItems(4,"Volleyball Teams",R.drawable.ic_volleyball));
+        list.add(new SportsItems(5,"Rugby Teams",R.drawable.ic_rugbyteams));
+        list.add(new SportsItems(6,"CyberSports Teams",R.drawable.ic_cybersports));
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
